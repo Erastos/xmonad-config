@@ -1,6 +1,6 @@
 Config {
        font = "xft:Zekton:size=13:bold:antialias=true"
-       , additionalFonts = [ "xft:FontAwesome:size=11" ]
+       , additionalFonts = [ "xft:Hack Nerd Font:size=11" ]
        , allDesktops = True
        , bgColor = "#282c34"
        , fgColor = "#bbc2cf"
