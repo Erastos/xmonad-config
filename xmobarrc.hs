@@ -35,7 +35,7 @@ Config {
                                    , "-h", "#aa4450"] 50
 
                     -- battery monitor
-                    , Run BatteryP       [ "BAT0" ]
+                    , Run BatteryP       [ "BAT1" ]
                                          [ "--template" , "<fc=#B1DE76><fn=1></fn></fc> <acstatus>"
                                          , "--Low"      , "10"        -- units: %
                                          , "--High"     , "80"        -- units: %
@@ -51,6 +51,7 @@ Config {
                                                    -- charged status
                                                    , "-i"   , "<fc=#98be65>Charged</fc>"
                                          ] 50
+
                     , Run StdinReader
                     ]
        , sepChar = "%"
